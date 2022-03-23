@@ -57,11 +57,22 @@ function move(event){
   let ballX = Math.floor(rectBall.x)
   let ballY = Math.floor(rectBall.y)
   // console.log(container.offsetWidth)
-
+  console.log("BALLX:")
+  console.log(ballX)
+  console.log("BALLY:")
+  console.log(ballY)
+  console.log("SCREEN WIDTH:")
+  console.log(container.offsetWidth)
 
   if (event.key === "w"){
     if (ballX >= 0.40*container.offsetWidth && ballX <= 0.6*container.offsetWidth){
       ball.style.bottom = '33%';
+    } else if (ballX <= 466 && ballX >= 270 && container.offsetWidth <= 1100 && container.offsetWidth >= 700){
+      ball.style.bottom = '33%';
+    } else if (ballX <= 231 && ballX >= 114 && container.offsetWidth <= 579 && container.offsetWidth >= 339){
+      ball.style.bottom = '38%';
+    } else if (container.offsetWidth <= 1100 && container.offsetWidth >= 339){
+      ball.style.bottom = '114%';
     } else {
       ball.style.bottom = '108%';
     }
