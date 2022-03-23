@@ -88,7 +88,7 @@ function move(event){
     //here we play a game sound
     setTimeout(()=>{marioSound.play()})
     //here we take the user to another page that shows my portilofio 
-    setTimeout(()=>{window.location.href = "https://victorphreitas.github.io/foodfinder.github.io/";},1000)
+    setTimeout(()=>{window.location.href = "https://github.com/victorphreitas";},1000)
   } else if (ballY <= 60 && ballX < 100 && event.key === "d"){
     ball.transitionDuration = "4000ms";
     // console.log("Ball is hitting the button")
@@ -97,7 +97,7 @@ function move(event){
     setTimeout(()=>{marioSound.play()})
     setTimeout(()=>{button.classList.remove("button-hover")},100)
     //here we take the user to another page that shows my portilofio 
-    setTimeout(()=>{window.location.href = "https://victorphreitas.github.io/foodfinder.github.io/";},1000)
+    setTimeout(()=>{window.location.href = "https://github.com/victorphreitas";},1000)
   } else {
     console.log("ball is NOT hitting the button")
   }
