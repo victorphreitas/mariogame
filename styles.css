@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.container {
+  background-color: #5E91FE;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto auto auto; 
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.ball {
+  background-image:url("https://res.cloudinary.com/practicaldev/image/fetch/s--pivQ6-Gy--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/6x56v2h70f9del7xt9wl.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  transition-duration: 2000ms;
+  background-color: red;
+  width: 140px;
+  height: 120px;
+  border-radius: 100%;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #2761dd;
+  margin: 50vh auto 0 auto;
+  position: relative;
+}
+
+.floor {
+  background-image: url("https://cdn.wallpapersafari.com/74/72/14xCXm.png");
+  background-size: contain;
+  background-position: center;
+  background-color: #5F8918;
+  width: 100%;
+  height: 20px;
+  border-top: black;
+  border-style: solid;
+  padding-bottom: 10px;
+}
+
+.ceiling {
+  background-image: url("https://cdn.wallpapersafari.com/74/72/14xCXm.png");
+  background-size: contain;
+  background-position: center;
+  background-color: #5F8918;
+  width: 100%;
+  height: 20px;
+  border-bottom: black;
+  border-style: solid;
+}
+
+.wall {
+  background-image: url("http://www.mariomayhem.com/fun/smb_level_editor/images/overworld_bg.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+  width: 39%;
+  height: 36px;
+  margin: 0 auto 0 auto;
+  position: relative;
+  top: 13rem;
+  border-style: hidden;
+}
+
+
+h2 {
+  font-size: 44px;
+}
+
+h2, p {
+  margin: 0 auto 0 auto;
+  position: relative;
+  top: 12rem;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+p {
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+strong {
+  text-transform: uppercase;
+}
+
+button {
+  border-style: solid;
+  border-color: black;
+  margin:  0.7rem auto 0 auto;
+  width: 20%;
+  height: 40px;
+  border-radius: 12px;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  background-color: #eec185;
+  font-weight: 500;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 16px;
+  letter-spacing: 3px;
+}
+
+.button-hover {
+  background-color: #77681F;
+}
+
+.countdown {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 20px;
+}
